@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: textSummarizer
 Version: 0.0.0
-Summary: A small python package for NLP app
+Summary: A python package for NLP app
 Home-page: https://github.com/drpreetyrai/AI_Text_Summarization
 Author: drpreetyrai
 Author-email: drpreetyrai@gmail.com

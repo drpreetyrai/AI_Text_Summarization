@@ -1,1 +1,171 @@
 [2025-04-15 23:38:30,066: INFO: main: Starting the application]
+[2025-04-16 01:55:28,466: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 01:55:28,469: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 01:55:28,470: INFO: common: created directory at: artifacts]
+[2025-04-16 01:55:28,470: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 01:55:29,445: INFO: 272366779: artifacts/data_ingestion/data.zip download! with following info: 
+Date: Tue, 15 Apr 2025 20:25:29 GMT
+Content-Type: text/html; charset=utf-8
+Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame,Accept-Encoding, Accept, X-Requested-With
+ETag: W/"dd7de4d80856bc0e70d863adfad0dd46"
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
+Server: github.com
+Accept-Ranges: bytes
+Set-Cookie: _gh_sess=HtcrxV8M1L6hyJwTKDfntSzk%2F9rI7NOQeVAyVYJMjc9wmNqyTfoUcRJVtRllwsQuzo4epOVAEcuq4aAlfSXLs1TuxYrp6cR70Cyjd2sKfJ6EZnOOlmCY2eUkftT01CwZJp6DkVd3eDEB9Dr5FXdWLHCEgB9cgEwyOrT4Yt8msLEaRAR0ZOcrXtwsso5KQdDXAwkClYoDL0XcpkK0SM1MFMhyEvcxxdCmCb5WnONdq6eafXVQSyD0iizQqpMqJ%2BHh%2FLvUkuPQLbWzopfFoqZXLw%3D%3D--8rtkXF74BCerqvPs--kgYrvhg6%2Fs%2BSXLxhWcXt3g%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _octo=GH1.1.337977657.1744748728; Path=/; Domain=github.com; Expires=Wed, 15 Apr 2026 20:25:28 GMT; Secure; SameSite=Lax
+Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 15 Apr 2026 20:25:28 GMT; HttpOnly; Secure; SameSite=Lax
+X-GitHub-Request-Id: C3DD:231EC3:34800A:40883F:67FEC0B8
+connection: close
+Transfer-Encoding: chunked
+
+]
+[2025-04-16 01:56:00,941: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 01:56:00,942: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 01:56:00,943: INFO: common: created directory at: artifacts]
+[2025-04-16 01:56:00,943: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 01:56:00,944: INFO: 272366779: File already exists of size: ~ 203 KB]
+[2025-04-16 01:56:35,302: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 01:56:35,310: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 01:56:35,310: INFO: common: created directory at: artifacts]
+[2025-04-16 01:56:35,311: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 01:56:35,311: INFO: 272366779: File already exists of size: ~ 203 KB]
+[2025-04-16 01:56:52,002: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 01:56:52,004: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 01:56:52,004: INFO: common: created directory at: artifacts]
+[2025-04-16 01:56:52,005: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 01:56:52,005: INFO: 272366779: File already exists of size: ~ 203 KB]
+[2025-04-16 01:59:16,115: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 01:59:16,118: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 01:59:16,118: INFO: common: created directory at: artifacts]
+[2025-04-16 01:59:16,119: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 01:59:16,119: INFO: 272366779: File already exists of size: ~ 203 KB]
+[2025-04-16 01:59:56,753: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 01:59:56,756: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 01:59:56,757: INFO: common: created directory at: artifacts]
+[2025-04-16 01:59:56,758: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 01:59:56,759: INFO: 272366779: File already exists of size: ~ 203 KB]
+[2025-04-16 02:01:08,664: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 02:01:08,667: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 02:01:08,667: INFO: common: created directory at: artifacts]
+[2025-04-16 02:01:08,668: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 02:01:08,669: INFO: 272366779: File already exists of size: ~ 203 KB]
+[2025-04-16 02:02:12,687: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 02:02:12,689: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 02:02:12,690: INFO: common: created directory at: artifacts]
+[2025-04-16 02:02:12,690: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 02:02:12,691: INFO: 272366779: File already exists of size: ~ 203 KB]
+[2025-04-16 02:02:59,230: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 02:02:59,241: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 02:02:59,245: INFO: common: created directory at: artifacts]
+[2025-04-16 02:02:59,247: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 02:02:59,248: INFO: 272366779: File already exists of size: ~ 203 KB]
+[2025-04-16 02:04:47,189: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 02:04:47,192: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 02:04:47,193: INFO: common: created directory at: artifacts]
+[2025-04-16 02:04:47,194: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 02:04:48,112: INFO: 272366779: artifacts/data_ingestion/data.zip download! with following info: 
+Date: Tue, 15 Apr 2025 20:34:47 GMT
+Content-Type: text/html; charset=utf-8
+Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame,Accept-Encoding, Accept, X-Requested-With
+ETag: W/"ef2f332aee0d6b7b988859520299ca7e"
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
+Server: github.com
+Accept-Ranges: bytes
+Set-Cookie: _gh_sess=xcgLidWocbKyvVVtX6oENDXp2RwbmwExnTT89Lrhxs6Bbw%2FmqmUB7xjK%2Fnx8dU%2Fqmayzn3TLywg3TLycYLY8QYYSNkW2IP2d2eanS6vE3WOGtfa%2FyB5SMLcy5v2su%2BbVdglWN4Qgcz8MDI4FvqkIhik%2BTAy3h6h4Q8hke2maPbtrU5G7Sp80lD5rXH%2BfP6lQrZX%2BSLrKwU9I6Q1Z6zAXdn2t6MznPLtvdZu9Q6Yc8c0q7%2Bc7BPM5icM3lYJJWYdqCh1o2D1V8XxBHOE%2BwTwCOg%3D%3D--JTmvaPISlPQ6igct--XutVaD1IiPG3oHp7GanTzA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _octo=GH1.1.1053542811.1744749287; Path=/; Domain=github.com; Expires=Wed, 15 Apr 2026 20:34:47 GMT; Secure; SameSite=Lax
+Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Wed, 15 Apr 2026 20:34:47 GMT; HttpOnly; Secure; SameSite=Lax
+X-GitHub-Request-Id: C659:13A647:356600:41B96B:67FEC2E7
+connection: close
+Transfer-Encoding: chunked
+
+]
+[2025-04-16 02:05:24,112: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 02:05:24,114: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 02:05:24,114: INFO: common: created directory at: artifacts]
+[2025-04-16 02:07:34,619: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 02:07:34,621: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 02:07:34,622: INFO: common: created directory at: artifacts]
+[2025-04-16 02:07:34,622: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 02:07:34,622: INFO: 272366779: File already exists of size: ~ 203 KB]
+[2025-04-16 02:10:46,596: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 02:10:46,598: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 02:10:46,599: INFO: common: created directory at: artifacts]
+[2025-04-16 02:10:46,599: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 02:10:46,600: INFO: 272366779: File already exists of size: ~ 203 KB]
+[2025-04-16 02:15:57,487: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 02:15:57,493: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 02:15:57,494: INFO: common: created directory at: artifacts]
+[2025-04-16 02:15:57,495: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 02:15:57,496: INFO: 272366779: File already exists of size: ~ 203 KB]
+[2025-04-16 02:18:51,661: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 02:18:51,666: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 02:18:51,668: INFO: common: created directory at: artifacts]
+[2025-04-16 02:18:51,669: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 02:19:09,464: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 02:19:09,466: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 02:19:09,467: INFO: common: created directory at: artifacts]
+[2025-04-16 02:19:09,468: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 02:22:21,251: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 02:22:21,253: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 02:22:21,253: INFO: common: created directory at: artifacts]
+[2025-04-16 02:27:47,530: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 02:27:47,532: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 02:27:47,532: INFO: common: created directory at: artifacts]
+[2025-04-16 02:27:47,533: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 02:27:47,533: INFO: 272366779: File already exists of size: ~ 203 KB]
+[2025-04-16 02:29:49,936: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 02:29:49,942: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 02:29:49,944: INFO: common: created directory at: artifacts]
+[2025-04-16 02:29:49,944: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 02:29:49,945: INFO: 272366779: File already exists of size: ~ 203 KB]
+[2025-04-16 02:30:13,691: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 02:30:13,693: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 02:30:13,693: INFO: common: created directory at: artifacts]
+[2025-04-16 02:30:13,694: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 02:30:13,694: INFO: 272366779: File already exists of size: ~ 203 KB]
+[2025-04-16 02:30:24,549: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 02:30:24,553: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 02:30:24,555: INFO: common: created directory at: artifacts]
+[2025-04-16 02:30:24,558: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 02:30:24,561: INFO: 272366779: File already exists of size: ~ 203 KB]
+[2025-04-16 02:30:55,810: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 02:30:55,812: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 02:30:55,813: INFO: common: created directory at: artifacts]
+[2025-04-16 02:30:55,814: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 02:30:55,814: INFO: 272366779: File already exists of size: ~ 203 KB]
+[2025-04-16 02:31:43,609: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 02:31:43,611: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 02:31:43,612: INFO: common: created directory at: artifacts]
+[2025-04-16 02:31:43,612: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 02:31:43,613: INFO: 272366779: File already exists of size: ~ 203 KB]
+[2025-04-16 02:39:43,177: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 02:39:43,180: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 02:39:43,180: INFO: common: created directory at: artifacts]
+[2025-04-16 02:39:43,181: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 02:39:43,182: INFO: 2366278714: File already exists of size: ~ 203 KB]
+[2025-04-16 02:51:28,113: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 02:51:28,116: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 02:51:28,116: INFO: common: created directory at: artifacts]
+[2025-04-16 02:51:28,116: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 02:51:28,117: INFO: 2366278714: File already exists of size: ~ 203 KB]
+[2025-04-16 02:53:44,653: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 02:53:44,654: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 02:53:44,655: INFO: common: created directory at: artifacts]
+[2025-04-16 02:53:44,655: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 02:53:44,656: INFO: 2366278714: File already exists of size: ~ 7718 KB]
+[2025-04-16 02:54:20,668: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 02:54:20,670: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 02:54:20,671: INFO: common: created directory at: artifacts]
+[2025-04-16 02:54:20,672: INFO: common: created directory at: artifacts/data_validation]
