@@ -21,5 +21,6 @@ src/textSummarizer/pipeline/stage_01_data_ingestion.py
 src/textSummarizer/pipeline/stage_02_data_validation.py
 src/textSummarizer/pipeline/stage_03_data_transformation.py
 src/textSummarizer/pipeline/stage_04_model_trainer.py
+src/textSummarizer/pipeline/stage_05_model_evaluation.py
 src/textSummarizer/utils/__init__.py
 src/textSummarizer/utils/common.py

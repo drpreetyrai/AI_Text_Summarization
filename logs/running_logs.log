@@ -471,3 +471,85 @@ x==========x]
 [2025-04-16 04:39:33,666: INFO: common: yaml file: params.yaml loaded successfully]
 [2025-04-16 04:39:33,668: INFO: common: created directory at: artifacts]
 [2025-04-16 04:39:33,669: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-04-16 04:49:06,220: INFO: config: PyTorch version 2.4.1 available.]
+[2025-04-16 04:49:06,730: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-04-16 04:49:06,732: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 04:49:06,732: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 04:49:06,733: INFO: common: created directory at: artifacts]
+[2025-04-16 04:49:06,733: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 04:49:06,733: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2025-04-16 04:49:06,829: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-04-16 04:49:06,829: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-04-16 04:49:06,830: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 04:49:06,831: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 04:49:06,831: INFO: common: created directory at: artifacts]
+[2025-04-16 04:49:06,831: INFO: common: created directory at: artifacts/data_validation]
+[2025-04-16 04:49:06,832: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-04-16 04:49:06,832: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-04-16 04:49:06,833: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 04:49:06,833: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 04:49:06,833: INFO: common: created directory at: artifacts]
+[2025-04-16 04:49:06,833: INFO: common: created directory at: artifacts/data_transformation]
+[2025-04-16 04:49:08,936: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-04-16 04:49:08,936: INFO: main: *******************]
+[2025-04-16 04:49:08,936: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-04-16 04:49:08,938: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 04:49:08,938: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 04:49:08,938: INFO: common: created directory at: artifacts]
+[2025-04-16 04:49:08,938: INFO: common: created directory at: artifacts/model_trainer]
+[2025-04-16 04:49:15,190: ERROR: main: Using the `Trainer` with `PyTorch` requires `accelerate>=0.26.0`: Please run `pip install transformers[torch]` or `pip install 'accelerate>={ACCELERATE_MIN_VERSION}'`]
+Traceback (most recent call last):
+  File "main.py", line 55, in <module>
+    model_trainer.main()
+  File "/Users/preetyrai/TextSummarization/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/Users/preetyrai/TextSummarization/src/textSummarizer/components/model_trainer.py", line 27, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 134, in __init__
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/transformers/training_args.py", line 1773, in __post_init__
+    self.device
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/transformers/training_args.py", line 2299, in device
+    return self._setup_devices
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/transformers/utils/generic.py", line 60, in __get__
+    cached = self.fget(obj)
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/transformers/training_args.py", line 2172, in _setup_devices
+    raise ImportError(
+ImportError: Using the `Trainer` with `PyTorch` requires `accelerate>=0.26.0`: Please run `pip install transformers[torch]` or `pip install 'accelerate>={ACCELERATE_MIN_VERSION}'`
+[2025-04-16 04:50:57,442: INFO: config: PyTorch version 2.4.1 available.]
+[2025-04-16 04:50:57,870: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-04-16 04:50:57,872: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 04:50:57,872: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 04:50:57,873: INFO: common: created directory at: artifacts]
+[2025-04-16 04:50:57,873: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 04:50:57,873: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2025-04-16 04:50:57,957: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-04-16 04:50:57,957: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-04-16 04:50:57,958: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 04:50:57,959: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 04:50:57,959: INFO: common: created directory at: artifacts]
+[2025-04-16 04:50:57,959: INFO: common: created directory at: artifacts/data_validation]
+[2025-04-16 04:50:57,959: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-04-16 04:50:57,959: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-04-16 04:50:57,960: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 04:50:57,961: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 04:50:57,961: INFO: common: created directory at: artifacts]
+[2025-04-16 04:50:57,961: INFO: common: created directory at: artifacts/data_transformation]
+[2025-04-16 04:50:59,621: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-04-16 04:50:59,621: INFO: main: *******************]
+[2025-04-16 04:50:59,621: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-04-16 04:50:59,623: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 04:50:59,623: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 04:50:59,624: INFO: common: created directory at: artifacts]
+[2025-04-16 04:50:59,624: INFO: common: created directory at: artifacts/model_trainer]
