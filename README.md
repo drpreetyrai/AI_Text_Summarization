@@ -28,6 +28,8 @@
 # How to run?
 ### STEPS:
 
+pip install 'transformers[torch]'
+
 
 ### STEP 01- Create a conda environment after opening the repository
 
