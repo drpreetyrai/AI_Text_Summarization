@@ -553,3 +553,183 @@ x==========x]
 [2025-04-16 04:50:59,623: INFO: common: yaml file: params.yaml loaded successfully]
 [2025-04-16 04:50:59,624: INFO: common: created directory at: artifacts]
 [2025-04-16 04:50:59,624: INFO: common: created directory at: artifacts/model_trainer]
+[2025-04-16 15:54:58,796: INFO: config: PyTorch version 2.4.1 available.]
+[2025-04-16 15:55:04,740: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-04-16 15:55:04,741: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 15:55:04,742: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 15:55:04,742: INFO: common: created directory at: artifacts]
+[2025-04-16 15:55:04,742: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 15:55:04,742: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2025-04-16 15:55:04,832: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-04-16 15:55:04,832: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-04-16 15:55:04,833: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 15:55:04,834: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 15:55:04,834: INFO: common: created directory at: artifacts]
+[2025-04-16 15:55:04,834: INFO: common: created directory at: artifacts/data_validation]
+[2025-04-16 15:55:04,836: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-04-16 15:55:04,836: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-04-16 15:55:04,838: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 15:55:04,839: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 15:55:04,839: INFO: common: created directory at: artifacts]
+[2025-04-16 15:55:04,839: INFO: common: created directory at: artifacts/data_transformation]
+[2025-04-16 15:55:06,613: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-04-16 15:55:06,613: INFO: main: *******************]
+[2025-04-16 15:55:06,613: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-04-16 15:55:06,615: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 15:55:06,615: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 15:55:06,615: INFO: common: created directory at: artifacts]
+[2025-04-16 15:55:06,615: INFO: common: created directory at: artifacts/model_trainer]
+[2025-04-16 16:00:47,862: ERROR: main: MPS backend out of memory (MPS allocated: 6.26 GB, other allocations: 2.57 GB, max allowed: 9.07 GB). Tried to allocate 375.40 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).]
+Traceback (most recent call last):
+  File "main.py", line 55, in <module>
+    model_trainer.main()
+  File "/Users/preetyrai/TextSummarization/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/Users/preetyrai/TextSummarization/src/textSummarizer/components/model_trainer.py", line 40, in train
+    trainer.train()
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/transformers/trainer.py", line 2123, in train
+    return inner_training_loop(
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/transformers/trainer.py", line 2481, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/transformers/trainer.py", line 3612, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/accelerate/accelerator.py", line 2246, in backward
+    loss.backward(**kwargs)
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: MPS backend out of memory (MPS allocated: 6.26 GB, other allocations: 2.57 GB, max allowed: 9.07 GB). Tried to allocate 375.40 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).
+[2025-04-16 16:04:30,043: INFO: config: PyTorch version 2.4.1 available.]
+[2025-04-16 16:04:30,602: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-04-16 16:04:30,604: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 16:04:30,605: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 16:04:30,605: INFO: common: created directory at: artifacts]
+[2025-04-16 16:04:30,605: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 16:04:30,605: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2025-04-16 16:04:30,691: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-04-16 16:04:30,691: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-04-16 16:04:30,692: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 16:04:30,693: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 16:04:30,693: INFO: common: created directory at: artifacts]
+[2025-04-16 16:04:30,693: INFO: common: created directory at: artifacts/data_validation]
+[2025-04-16 16:04:30,694: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-04-16 16:04:30,694: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-04-16 16:04:30,695: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 16:04:30,696: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 16:04:30,696: INFO: common: created directory at: artifacts]
+[2025-04-16 16:04:30,696: INFO: common: created directory at: artifacts/data_transformation]
+[2025-04-16 16:04:32,435: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-04-16 16:04:32,436: INFO: main: *******************]
+[2025-04-16 16:04:32,436: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-04-16 16:04:32,437: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 16:04:32,438: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 16:04:32,438: INFO: common: created directory at: artifacts]
+[2025-04-16 16:04:32,438: INFO: common: created directory at: artifacts/model_trainer]
+[2025-04-16 16:10:33,926: ERROR: main: MPS backend out of memory (MPS allocated: 6.26 GB, other allocations: 2.57 GB, max allowed: 9.07 GB). Tried to allocate 375.40 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).]
+Traceback (most recent call last):
+  File "main.py", line 55, in <module>
+    model_trainer.main()
+  File "/Users/preetyrai/TextSummarization/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/Users/preetyrai/TextSummarization/src/textSummarizer/components/model_trainer.py", line 40, in train
+    trainer.train()
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/transformers/trainer.py", line 2123, in train
+    return inner_training_loop(
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/transformers/trainer.py", line 2481, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/transformers/trainer.py", line 3612, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/accelerate/accelerator.py", line 2246, in backward
+    loss.backward(**kwargs)
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: MPS backend out of memory (MPS allocated: 6.26 GB, other allocations: 2.57 GB, max allowed: 9.07 GB). Tried to allocate 375.40 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).
+[2025-04-16 16:17:29,763: INFO: config: PyTorch version 2.4.1 available.]
+[2025-04-16 16:17:30,228: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-04-16 16:17:30,229: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 16:17:30,230: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 16:17:30,230: INFO: common: created directory at: artifacts]
+[2025-04-16 16:17:30,230: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-16 16:17:30,230: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2025-04-16 16:17:30,309: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-04-16 16:17:30,309: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-04-16 16:17:30,310: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 16:17:30,311: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 16:17:30,311: INFO: common: created directory at: artifacts]
+[2025-04-16 16:17:30,311: INFO: common: created directory at: artifacts/data_validation]
+[2025-04-16 16:17:30,311: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-04-16 16:17:30,311: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-04-16 16:17:30,313: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 16:17:30,313: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 16:17:30,313: INFO: common: created directory at: artifacts]
+[2025-04-16 16:17:30,313: INFO: common: created directory at: artifacts/data_transformation]
+[2025-04-16 16:17:31,401: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-04-16 16:17:31,402: INFO: main: *******************]
+[2025-04-16 16:17:31,402: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-04-16 16:17:31,403: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 16:17:31,404: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 16:17:31,404: INFO: common: created directory at: artifacts]
+[2025-04-16 16:17:31,404: INFO: common: created directory at: artifacts/model_trainer]
+[2025-04-16 16:25:40,743: ERROR: main: MPS backend out of memory (MPS allocated: 6.26 GB, other allocations: 2.57 GB, max allowed: 9.07 GB). Tried to allocate 375.40 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).]
+Traceback (most recent call last):
+  File "main.py", line 55, in <module>
+    model_trainer.main()
+  File "/Users/preetyrai/TextSummarization/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/Users/preetyrai/TextSummarization/src/textSummarizer/components/model_trainer.py", line 40, in train
+    trainer.train()
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/transformers/trainer.py", line 2123, in train
+    return inner_training_loop(
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/transformers/trainer.py", line 2481, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/transformers/trainer.py", line 3612, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/accelerate/accelerator.py", line 2246, in backward
+    loss.backward(**kwargs)
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/opt/anaconda3/envs/summary/lib/python3.8/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: MPS backend out of memory (MPS allocated: 6.26 GB, other allocations: 2.57 GB, max allowed: 9.07 GB). Tried to allocate 375.40 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).
+[2025-04-16 16:26:13,883: INFO: config: PyTorch version 2.4.1 available.]
+[2025-04-16 16:26:14,054: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 16:26:14,055: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 16:26:14,056: INFO: common: created directory at: artifacts]
+[2025-04-16 16:26:14,056: INFO: common: created directory at: artifacts/model_trainer]
+[2025-04-16 16:31:27,650: INFO: config: PyTorch version 2.4.1 available.]
+[2025-04-16 16:31:27,806: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 16:31:27,807: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 16:31:27,807: INFO: common: created directory at: artifacts]
+[2025-04-16 16:31:27,807: INFO: common: created directory at: artifacts/model_trainer]
+[2025-04-16 16:40:21,188: INFO: config: PyTorch version 2.4.1 available.]
+[2025-04-16 16:40:21,338: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-16 16:40:21,339: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-16 16:40:21,340: INFO: common: created directory at: artifacts]
+[2025-04-16 16:40:21,340: INFO: common: created directory at: artifacts/model_trainer]

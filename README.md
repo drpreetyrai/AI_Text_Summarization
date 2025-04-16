@@ -47,6 +47,8 @@ conda activate summary
 pip install -r requirements.txt
 ```
 
+in terminal:- export PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0
+
 
 ```bash
 # Finally run the following command
